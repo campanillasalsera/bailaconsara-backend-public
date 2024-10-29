@@ -1,0 +1,57 @@
+{"properties": [
+  {
+    "name": "jwt.secret.key",
+    "type": "java.lang.String",
+    "description": "A description for 'jwt.secret.key'"
+  },
+  {
+    "name": "jwt.time.expiration",
+    "type": "java.lang.String",
+    "description": "A description for 'jwt.time.expiration'"
+  },
+  {
+    "name": "media.location",
+    "type": "java.lang.String",
+    "description": "A description for 'media.location'"
+  },
+  {
+    "name": "ftp.server",
+    "type": "java.lang.String",
+    "description": "A description for 'ftp.server'"
+  },
+  {
+    "name": "ftp.port",
+    "type": "java.lang.String",
+    "description": "A description for 'ftp.port'"
+  },
+  {
+    "name": "ftp.user",
+    "type": "java.lang.String",
+    "description": "A description for 'ftp.user'"
+  },
+  {
+    "name": "ftp.password",
+    "type": "java.lang.String",
+    "description": "A description for 'ftp.password'"
+  },
+  {
+    "name": "ftp.upload.directory",
+    "type": "java.lang.String",
+    "description": "A description for 'ftp.upload.directory'"
+  },
+  {
+    "name": "frontend.url",
+    "type": "java.lang.String",
+    "description": "A description for 'frontend.url'"
+  },
+  {
+    "name": "ftp.host",
+    "type": "java.lang.String",
+    "description": "A description for 'ftp.host'"
+  },
+  {
+    "name": "ftp.base-dir",
+    "type": "java.lang.String",
+    "description": "A description for 'ftp.base-dir'"
+  }
+]}

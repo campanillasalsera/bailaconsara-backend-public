@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resultado de email de verificación</title>
+    <style>
+        body {
+            font-family: Roboto, "Helvetica Neue", sans-serif;
+			color: white;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-color: rgb(48, 48, 48);
+        }
+        .container {
+            background-color: rgb(0, 0, 0);
+            padding: 20px;
+			border: red 3px solid;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            border-radius: 8px;
+            max-width: 600px;
+            text-align: center;
+        }
+        .message {
+            font-size: 1.2em;
+            color: rgb(255, 255, 255);
+        }
+		
+		.textRed {
+			color: red;
+		}
+		
+		.bolder {
+			font-weight: bolder;
+		}
+		
+		.textCenter {
+			text-align: center;
+		}
+
+        /* Media queries for responsiveness */
+        @media (max-width: 768px) {
+            .message {
+                font-size: 1em;
+            }
+        }
+        @media (max-width: 480px) {
+            .container {
+                padding: 10px;
+            }
+            .message {
+                font-size: 0.9em;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+		<h2 class="textCenter"><span class="textRed bolder">B</span>aila con <span class="textRed bolder">S</span>ara</h2>
+        <p class="message" th:utext="${resultadoValidacion}"></p>
+    </div>
+</body>
+</html>
